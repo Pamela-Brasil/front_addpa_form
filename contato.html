@@ -30,15 +30,54 @@
                         <label for="celular">Celular</label>
                         <input typer="number" name="celular" id="celular" placeholder="Digite o número do celular">
                     </div>
+                    <div class="campos">
+                        <label for="descricao">Assunto</label>
+                        <textarea class="input" name="descricao" id="descricao" placeholder="Descreva o motivo do contato"></textarea>
+                    </div>
+                    <div class="radio">
+                        <label for="">Escolha a sua linguagem favorita</label>
+                        <div class="btn-radio">
+                            <input type="radio" id="html" class="input-radio" name="fav_language" value="HTML">
+                            <label FOR="html">HTML</label>
+                        </div>
+                        <div class="btn-radio">
+                            <input type="radio" id="css" class="input-radio" name="fav-language" value="CSS" checked="checked">
+                            <label for="css">CSS</label>
+                        </div>
+                        <div class="btn-radio">
+                            <input type="radio" id="javascript" class="input-radio" name="fav-language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                    </div>
+                    <div class="radio">
+                        <label for="">Escolha a linguagem que domina</label>
+                        <div class="btn-radio">
+                            <input type="checkbox" id="html" class="input-radio" name="ling_dominada" value="HTML">
+                            <label for="html">HTML</label>
+                        </div>
+                        <div class="btn-check">
+                            <input type="checkbox" id="css" class="input-radio" name="ling_dominada" value="CSS">
+                            <label for="css">CSS</label>
+                        <div class="btn-check">
+                            <input type="checkbox" id="javascript" class="input-radio" name="ling-dominada" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                        <div class="btn-check">
+                            <input type="checkbox" id="javascript" class="input-radio" name="ling_dominada" value="Python">
+                            <label for="python">Python</label>
+                        </div>
+                        </div>
+                    </div>
+
                     <input type="submit" name="enviar" value="enviar" id="btn-enviar">
                 </form>
             </div> 
-        </section>
-        <section class="form-mapa">
-            <h2>LOCALIZAÇÃO</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.150182366512!2d-43.12844192377819!3d-22.907830837910012!
-            2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x998163372c483f%3A0xf1f22d78a2736925!2sMuseu%20de%20Arte%20Contempor%C3%A2nea%
-            20de%20Niter%C3%B3i!5e0!3m2!1spt-BR!2sbr!4v1744238438659!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <div class="form-mapa">
+                <h2>LOCALIZAÇÃO</h2>
+                <iframe class="mapa-contato" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.150182366512!2d-43.12844192377819!3d-22.907830837910012!
+                2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x998163372c483f%3A0xf1f22d78a2736925!2sMuseu%20de%20Arte%20Contempor%C3%A2nea%
+                20de%20Niter%C3%B3i!5e0!3m2!1spt-BR!2sbr!4v1744238438659!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main> 
     <footer>
